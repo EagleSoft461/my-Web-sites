@@ -1,0 +1,43 @@
+body {
+  scroll-behavior: smooth;
+  background: linear-gradient(to right, #99a6c0, #2b56a1);
+}
+
+.navbar {
+  transition: background 0.3s, box-shadow 0.3s;
+  background: transparent !important; /* başta şeffaf */
+}
+
+.navbar.scrolled {
+    background-color: rgba(0,0,0,0.9) !important; /* scroll yapınca siyah */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.btn-primary {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
