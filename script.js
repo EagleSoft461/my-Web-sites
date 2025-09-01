@@ -25,14 +25,14 @@ document.addEventListener("DOMContentLoaded", function() {
       image: "https://clipart-library.com/new_gallery/214-2140028_png-file-svg-calculator-icon-free.png"
     },
     {
-      title: "Web Tasarım",
-      content: "Bootstrap ile şık ve mobil uyumlu siteler yapmayı öğrendim.",
+      title: "Diğer projelerim",
+      content: "Diğer projelerim için :https://github.com/EagleSoft461/.",
       link: "#",
       image: "https://via.placeholder.com/400x200"
     },
     {
-      title: "Yeni Yazım",
-      content: "Bugün bloguma bir yazı daha ekledim 🎉",
+      title: "coming soon",
+      content: "coming soon!!!!",
       link: "#",
       image: "https://via.placeholder.com/400x200"
     }
@@ -73,4 +73,5 @@ document.addEventListener("DOMContentLoaded", function() {
     appearOnScroll.observe(fader);
   });
 });
+
 
